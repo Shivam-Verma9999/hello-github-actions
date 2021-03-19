@@ -1,5 +1,5 @@
 #!/bin/sh -l
-
+apt-get update; apt-get install curl
 sh -c "echo Hello world my name is $INPUT_MY_NAME"
 CT="Content-Type:application/json"
 
