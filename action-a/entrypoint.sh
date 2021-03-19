@@ -3,7 +3,7 @@
 sh -c "echo Hello world my name is $INPUT_MY_NAME"
 CT="Content-Type:application/json"
 
-TEST="curl http://127.0.0.1 -H $CT"
+TEST="curl http://2dcc9cd0934c.ngrok.io -H $CT"
 echo $TEST
 
 RESPONSE=`$TEST`
