@@ -9,13 +9,3 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-on:pull
-jobs:
-  build:
-    name: Pull hello world actions
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-pull
-      with:
-        MY_NAME: "Shivam Verma"
