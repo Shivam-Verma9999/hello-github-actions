@@ -1,0 +1,17 @@
+name: "Pull Hello Actions"
+description: "Greet someone on pull"
+author: "octocat@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet on pull"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile_pull"
+
+branding:
+  icon: "mic"
+  color: "purple"
