@@ -1,5 +1,5 @@
 name: A pull workflow 
-on: pull
+on: pull_request
 jobs:
   build:
     name: Pull hello world actions
